@@ -1,0 +1,26 @@
+#
+# Header
+#
+ResourceType=Application
+ImplementationResourceType=Application
+CreateDeleteCommandProperties=true
+ResourceId=Deployment=
+#
+
+#
+# Properties
+#
+Name=modresorts
+TargetServer=!{serverName}
+TargetNode=!{nodeName}
+EarFileLocation=/work/config/modresorts-1.0.war
+
+
+
+#Environment Variables
+cellName=DefaultCell01
+nodeName=DefaultNode01
+serverName=server1
+
+
+
